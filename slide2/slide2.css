@@ -1,0 +1,69 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.s1 {
+	position: absolute;
+	z-index: 1;
+	width: 1079px;
+	height: 810px;
+	top: 0px;
+	left: 1px;
+	display: block;
+}
+
+.s2 {
+	position: absolute;
+	z-index: 10;
+  left: 632px;
+  top: 680px;
+  width: 204px;
+  height: 46px;
+    animation: pulse 1s infinite;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+	display: block;
+}
+
+.blocker {
+	position: absolute;
+	z-index: 15;
+	width: 1079px;
+	height: 810px;
+	top: 0px;
+	left: 5px;
+	display: block;
+}
+
+.clickMe {
+  position: absolute;
+  left: 619px;
+  top: 633px;
+  width: 227px;
+  height: 133px;
+  z-index: 20;
+}
+
+.pulseIt {
+	animation: pulseIt 0.5s infinite;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+}
+
+@keyframes pulseIt {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
