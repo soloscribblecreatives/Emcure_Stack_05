@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s1 {
+	position: absolute;
+	width: 1080px;
+	height: 800px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 50px;
+  top: 451px;
+  width: 980px;
+  height: 289px;
+	animation: fadeInRight 0.7s;
+	animation-delay: 0.1s;
+	animation-fill-mode: both;
+	z-index: 3;
+}
+
+.s3wrap {
+	position: absolute;
+  left: 114px;
+  top: 71px;
+  width: 841px;
+  height: 506px;
+	animation: fadeInLeft 0.7s;
+	animation-delay: 0.1s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3 {
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 841px;
+  height: 506px;
+	animation: flashLong 3s infinite;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+@keyframes flashLong {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75% {
+    opacity: 1;
+  }
+}

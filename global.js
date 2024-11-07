@@ -95,7 +95,6 @@ function touchHandler(e) {
 			return
 		} else {
 			go_nav('b');
-			$('.blocker').css("display","block");
 		}
 
 	  } ,
@@ -159,10 +158,10 @@ if(direction == 'b') {
 }else {
 	
 
-	if(page_id <= 3){
+	if(page_id <= 5){
 		page_id = page_id + 1;
 		//alert(page_id);
-		if(page_id == 4){
+		if(page_id == 6){
             flag=1;
         }
 	}
@@ -252,13 +251,19 @@ currentSlide();
 var selectedContentPath='';
 switch(pg_id){
 	case 1:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="s1"><img src="slide1/1.jpg" width="1080" height="810" alt=""></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="s1"><img src="slide1/s1.png" width="1080" height="810" alt=""></div><div class="s2"><img src="slide1/s2.png"/></div><div class="s3"><img src="slide1/s3.png"/></div><div class="s4"><img src="slide1/s4.png"/></div><div class="s5"><img src="slide1/s5.png"/></div>';
 	break;
 	case 2:
-	content='<link rel="stylesheet" type="text/css" href="slide2/slide2.css" media="screen"/><div class="s1"><img src="slide2/1.jpg" width="1080" height="810" alt=""/></div><div class="s2"><img src="slide2/2.png"/></div><div class="clickMe" onclick="clickMe()"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide2/slide2.css" media="screen"/><div class="s1"><img src="slide2/s1.png" width="1080" height="810" alt=""></div><div class="s2"><img src="slide2/s2.png"/></div><div class="s3"><img src="slide2/s3.png"/></div><div class="s4"><img src="slide2/s4.png"/></div><div class="s5"><img src="slide2/s5.png"/></div><div class="s6"><img src="slide2/s6.png"/></div><div class="hit_1"><img src="slide2/logoPop.png" width="1080" height="810" alt=""/></div><div class="hit_pop1" onclick="hit_pop1()"></div><div class="hit_close1" onclick="hit_close1()"></div>';
 	break;
 	case 3:
-	content='<link rel="stylesheet" type="text/css" href="slide3/slide3.css" media="screen" /><img id="asset1" src="slide3/1.png" width="1079" height="810"><img id="asset2" src="slide3/2.png" width="250" height="164"><img id="asset3" src="slide3/3.png" width="544" height="168"><img id="asset4" src="slide3/4.png" width="366" height="170"><img id="asset5" src="slide3/5.png" width="437" height="85"><img id="asset6" src="slide3/6.png" width="600" height="123"><img id="asset7" src="slide3/7.png" width="274" height="161">';
+	content='<link rel="stylesheet" type="text/css" href="slide3/slide3.css" media="screen"/><div class="s1"><img src="slide3/s1.png" width="1080" height="810" alt=""></div><div class="s2"><img src="slide3/s2.png"/></div><div class="s3"><img src="slide3/s3.png"/></div><div class="s4"><img src="slide3/s4.png"/></div><div class="s5"><img src="slide3/s5.png"/></div><div class="s6"><img src="slide3/s6.png"/></div><div class="hit_1"><img src="slide3/logoPop.png" width="1080" height="810" alt=""/></div><div class="hit_pop1" onclick="hit_pop1()"></div><div class="hit_close1" onclick="hit_close1()"></div>';
+	break;
+	case 4:
+	content='<link rel="stylesheet" type="text/css" href="slide4/slide4.css" media="screen"/><div class="s1"><img src="slide4/s1.png" width="1080" height="810" alt=""></div><div class="s2"><img src="slide4/s2.png"/></div><div class="s3"><img src="slide4/s3.png"/></div><div class="s4"><img src="slide4/s4.png"/></div><div class="s5"><img src="slide4/s5.png"/></div><div class="s6"><img src="slide4/s6.png"/></div><div class="hit_1"><img src="slide4/logoPop.png" width="1080" height="810" alt=""/></div><div class="hit_pop1" onclick="hit_pop1()"></div><div class="hit_close1" onclick="hit_close1()"></div>';
+	break;
+	case 5:
+	content='<link rel="stylesheet" type="text/css" href="slide5/slide5.css" media="screen"/><div class="s1"><img src="slide5/s1.png" width="1080" height="810" alt=""></div><div class="s2"><img src="slide5/s2.png"/></div><div class="s3wrap"><div class="s3"><img src="slide5/s3.png"/></div></div>';
 	break;
 }
 
@@ -473,13 +478,3 @@ function hit_close1() {
 	$('.hit_pop7').css("display","block");
 	$('.hit_close1').css("display","none");
 }
-
-function takeCover() {
-		open_page("",1);
-}
-
-
-function clickMe() {
-	$('.blocker').css("display","none");
-	go_nav('f');
-};

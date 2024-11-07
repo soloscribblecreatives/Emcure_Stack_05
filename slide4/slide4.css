@@ -12,60 +12,59 @@
 
 .s2 {
 	position: absolute;
-  left: 105px;
-  top: 342px;
-  width: 270px;
-  height: 221px;
-	animation: zoomIn 0.5s;
+  left: 48px;
+  top: 408px;
+  width: 375px;
+  height: 272px;
+	animation: fadeInUp 1s;
 	animation-delay: 0.1s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s3 {
-	position: absolute;
-  left: 62px;
-  top: 518px;
-  width: 361px;
-  height: 140px;
-	animation: fadeInUp 0.5s;
-	animation-delay: 0.5s;
 	animation-fill-mode: both;
 	z-index: 3;
 }
 
+.s3 {
+	position: absolute;
+  left: 57px;
+  top: 407px;
+  width: 237px;
+  height: 249px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
 .s4 {
 	position: absolute;
-  left: 518px;
-  top: 339px;
-  width: 500px;
-  height: 74px;
-	animation: flipInX 0.5s;
-	animation-delay: 1.5s;
+  left: 471px;
+  top: 375px;
+  width: 552px;
+  height: 97px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s5 {
 	position: absolute;
-  left: 570px;
-  top: 412px;
-  width: 396px;
-  height: 286px;
-	animation: zoomIn 0.5s;
+  left: 471px;
+  top: 492px;
+  width: 552px;
+  height: 96px;
+	animation: fadeInRight 0.5s;
 	animation-delay: 2.5s;
 	animation-fill-mode: both;
-	transform-origin: top;
 	z-index: 5;
 }
 
 .s6 {
 	position: absolute;
-  left: 193px;
-  top: 704px;
-  width: 694px;
-  height: 39px;
-	animation: flipInX 0.5s;
+  left: 471px;
+  top: 604px;
+  width: 552px;
+  height: 97px;
+	animation: fadeInRight 0.5s;
 	animation-delay: 3s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -81,10 +80,10 @@
 
 .hit_pop1 {
 	position: absolute;
-  left: 378px;
-  top: 9px;
-  width: 535px;
-  height: 294px;
+  left: 350px;
+  top: 23px;
+  width: 585px;
+  height: 267px;
 	z-index: 10;
 }
 

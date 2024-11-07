@@ -5,19 +5,84 @@
 
 .s1 {
 	position: absolute;
-	width: 1024px;
-	height: 768px;
+	width: 1080px;
+	height: 800px;
 	z-index: 1;
 }
 
 .s2 {
 	position: absolute;
-  left: 697px;
-  top: 0px;
-  width: 383px;
-  height: 810px;
-	animation: slideInRight 0.5s;
-	animation-delay: 0.5s;
+  left: 557px;
+  top: 177px;
+  width: 297px;
+  height: 165px;
+	animation: zoomIn 1s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	transform-origin: bottom left;
+	z-index: 5;
+}
+
+.s3 {
+	position: absolute;
+  left: 676px;
+  top: 380px;
+  width: 330px;
+  height: 164px;
+	animation: zoomIn 1s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	transform-origin: left;
+	z-index: 5;
+}
+
+.s4 {
+	position: absolute;
+  left: 553px;
+  top: 580px;
+  width: 269px;
+  height: 164px;
+	animation: zoomIn 1s;
+	animation-delay: 1.8s;
+	animation-fill-mode: both;
+	transform-origin: top left;
+	z-index: 5;
+}
+
+.s5 {
+	position: absolute;
+  left: 792px;
+  top: 707px;
+  width: 245px;
+  height: 71px;
+	animation: leftRight 1s infinite;
+	animation-delay: 3s;
 	animation-fill-mode: both;
 	z-index: 5;
+}
+
+@keyframes leftRight {
+  0% {
+  opacity: 1;
+  left: 792px;
+  top: 707px;
+  width: 245px;
+  height: 71px;
+  }
+
+  50% {
+  opacity: 1;
+  left: 772px;
+  top: 707px;
+  width: 245px;
+  height: 71px;
+  }
+  
+  100% {
+  opacity: 1;
+  left: 792px;
+  top: 707px;
+  width: 245px;
+  height: 71px;
+  }
 }
