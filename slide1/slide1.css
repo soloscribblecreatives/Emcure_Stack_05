@@ -328,9 +328,9 @@
 }
 
 .s21 {
-	position: fixed;
-  left: 130px;
-  top: 600px;
+	position: absolute;
+  left: 43px;
+  top: 51px;
   width: 246px;
   height: 82px;
 	animation: pulse 1s infinite;
