@@ -407,100 +407,6 @@ $(document).ready(function(){
 
 /*--------------------- animation javascript -----------------------*/
 
-function hit_pop1() {
-	$('.hit_1').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop1').css("display","none");
-}
-
-function hit_pop2() {
-	$('.hit_2').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop2').css("display","none");
-}
-
-function hit_pop3() {
-	$('.hit_3').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop3').css("display","none");
-}
-
-function hit_pop4() {
-	$('.hit_4').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop4').css("display","none");
-}
-
-function hit_pop5() {
-	$('.hit_5').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop5').css("display","none");
-}
-
-function hit_pop6() {
-	$('.hit_6').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop6').css("display","none");
-}
-
-function hit_pop7() {
-	$('.hit_7').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop7').css("display","none");
-}
-
-function hit_close1() {
-	$('.hit_1').css("display","none");
-	$('.hit_2').css("display","none");
-	$('.hit_3').css("display","none");
-	$('.hit_4').css("display","none");
-	$('.hit_5').css("display","none");
-	$('.hit_6').css("display","none");
-	$('.hit_7').css("display","none");
-	$('.hit_pop1').css("display","block");
-	$('.hit_pop2').css("display","block");
-	$('.hit_pop3').css("display","block");
-	$('.hit_pop4').css("display","block");
-	$('.hit_pop5').css("display","block");
-	$('.hit_pop6').css("display","block");
-	$('.hit_pop7').css("display","block");
-	$('.hit_close1').css("display","none");
-}
-
-function takeCover() {
-		open_page("",1);
-}
-
-function hit1() {
-	$('.hit1').css("display","none");
-	$(".s4").addClass("fadeOut");
-	$('.s7').css("display","block");
-	$('.s10').css("display","block");
-	$('.s14').css("display","none");
-	$('.s15').css("display","block");
-	$('.s16').css("display","block");
-	$('.s17w').css("display","block");
-	$('.s17').css("display","block");
-	setTimeout(function(){ 
-		$('.hit2').css("display","block");
-	}, 3500);
-}
-
-function hit2() {
-	$('.hit2').css("display","none");
-	$('.s15').css("display","none");
-	$('.s16').css("display","none");
-	$('.s18w').css("display","block");
-	$('.s18').css("display","block");
-	$('.s19').css("display","block");
-	$('.s20w').css("display","block");
-	$('.s20').css("display","block");
-	setTimeout(function(){ 
-		$('.s21').fadeIn();
-		$('.hit3').css("display","block");
-	}, 4200);
-}
-
 function hit3() {
 	$('.s21').fadeOut();
 	$('.hit3').css("display","none");
@@ -518,3 +424,13 @@ function hit3() {
 	$('.s23').css("display","block");
 	$('.s24').css("display","block");
 }
+
+window.onload = function(){
+   setInterval(function(){
+       $('.s20w').css("display","block");
+   }, 12000);
+   setInterval(function(){
+       $('.s21').css("display","block");
+       $('.hit3').css("display","block");
+   }, 13000);
+};
