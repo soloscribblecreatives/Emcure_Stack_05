@@ -25,9 +25,9 @@
 
 .hit3 {
   position: absolute;
-  left: 108px;
-  top: 566px;
-  width: 303px;
+  left: 109px;
+  top: 565px;
+  width: 396px;
   height: 145px;
   display: none;
   z-index: 35;
@@ -305,10 +305,10 @@
 
 .s20w {
 	position: absolute;
-  left: 87px;
+  left: 88px;
   top: 549px;
-  width: 928px;
-  height: 195px;
+  width: 927px;
+  height: 194px;
 	display: none;
 	z-index: 25;
 }
@@ -323,8 +323,8 @@
 	position: absolute;
   left: 0px;
   top: 0px;
-  width: 928px;
-  height: 195px;
+  width: 927px;
+  height: 194px;
 	animation: flipInX 0.7s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
@@ -333,8 +333,8 @@
 
 .s21 {
 	position: absolute;
-  left: 43px;
-  top: 51px;
+  left: 42px;
+  top: 34px;
   width: 246px;
   height: 82px;
 	animation: pulse 1s infinite;
@@ -359,10 +359,10 @@
 
 .s23 {
 	position: absolute;
-  left: 315px;
-  top: 513px;
-  width: 450px;
-  height: 54px;
+  left: 307px;
+  top: 512px;
+  width: 467px;
+  height: 56px;
 	animation: fadeInUp 0.5s;
 	animation-delay: 3.2s;
 	animation-fill-mode: both;
