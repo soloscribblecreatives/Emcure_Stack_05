@@ -16,7 +16,7 @@
   top: 92px;
   width: 94px;
   height: 28px;
-	animation: zoomIn 0.5s;
+	animation: fadeIn 0.5s;
 	animation-delay: 0.2s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -29,23 +29,10 @@
   top: 128px;
   width: 784px;
   height: 60px;
-	animation: revealHorizontalRight 0.7s;
+	animation: fadeIn 0.5s;
 	animation-delay: 0.2s;
 	animation-fill-mode: both;
-	clip: rect(0px,0px,100px,0px);
 	z-index: 5;
-}
-
-@keyframes revealHorizontalRight {
-  0% {
-    clip: rect(0px,0px,100px,0px);
-	opacity: 1;
-  }
-  
-  100% {
-    clip: rect(0px,800px,100px,0px);
-	opacity: 1;
-  }
 }
 
 .s4 {
@@ -55,7 +42,7 @@
   width: 144px;
   height: 99px;
 	animation: fadeIn 0.5s;
-	animation-delay: 1.2s;
+	animation-delay: 1s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
@@ -68,7 +55,7 @@
   width: 216px;
   height: 71px;
 	animation: fadeIn 0.5s;
-	animation-delay: 1.2s;
+	animation-delay: 1s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
@@ -79,10 +66,9 @@
   top: 597px;
   width: 358px;
   height: 60px;
-	animation: revealHorizontalRight 0.7s;
-	animation-delay: 1.2s;
+	animation: fadeIn 0.5s;
+	animation-delay: 1s;
 	animation-fill-mode: both;
-	clip: rect(0px,0px,100px,0px);
 	z-index: 5;
 }
 
