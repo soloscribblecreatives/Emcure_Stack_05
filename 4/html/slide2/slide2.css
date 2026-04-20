@@ -1,0 +1,93 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.background {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.s1 {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 230px;
+  top: 295px;
+  width: 614px;
+  height: 84px;
+	animation: none 0.5s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3 {
+	position: absolute;
+  left: 298px;
+  top: 387px;
+  width: 485px;
+  height: 30px;
+	animation: none 0.5s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4 {
+	position: absolute;
+  left: 249px;
+  top: 438px;
+  width: 166px;
+  height: 195px;
+	animation: none 0.5s;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	transform-origin: top;
+	z-index: 5;
+}
+
+.s5 {
+	position: absolute;
+  left: 460px;
+  top: 438px;
+  width: 163px;
+  height: 195px;
+	animation: none 0.5s;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	transform-origin: bottom;
+	z-index: 5;
+}
+
+.s6 {
+	position: absolute;
+  left: 668px;
+  top: 438px;
+  width: 163px;
+  height: 195px;
+	animation: none 0.5s;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	transform-origin: top;
+	z-index: 3;
+}
+
+.s7 {
+	position: absolute;
+  left: 229px;
+  top: 667px;
+  width: 623px;
+  height: 56px;
+	animation: none 0.5s;
+	animation-delay: 1.2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}

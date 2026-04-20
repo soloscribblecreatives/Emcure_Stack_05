@@ -1,0 +1,126 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s1 {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 124px;
+  top: 300px;
+  width: 542px;
+  height: 101px;
+	animation: none 0.5s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3 {
+	position: absolute;
+  left: 21px;
+  top: 417px;
+  width: 362px;
+  height: 311px;
+	animation: none 0.5s;
+	animation-delay: 0.5s;
+	animation-fill-mode: both;
+	z-index: 15;
+}
+
+.s4 {
+	position: absolute;
+  left: 391px;
+  top: 432px;
+  width: 333px;
+  height: 188px;
+	animation: none 0.5s;
+	animation-delay: 1.7s;
+	animation-fill-mode: both;
+	transform-origin: bottom right;
+	z-index: 10;
+}
+
+.s5 {
+	position: absolute;
+  left: 432px;
+  top: 594px;
+  width: 305px;
+  height: 154px;
+	animation: none 0.5s;
+	animation-delay: 1.2s;
+	animation-fill-mode: both;
+	transform-origin: bottom left;
+	z-index: 5;
+}
+
+.s6 {
+	position: absolute;
+  left: 202px;
+  top: 471px;
+  width: 174px;
+  height: 116px;
+	animation: none 0.5s;
+	animation-delay: 1.7s;
+	animation-fill-mode: both;
+	transform-origin: top right;
+	z-index: 15;
+}
+
+.s7 {
+	position: absolute;
+  left: 315px;
+  top: 560px;
+  width: 153px;
+  height: 146px;
+	animation: none 0.5s;
+	animation-delay: 1.8s;
+	animation-fill-mode: both;
+	transform-origin: top right;
+	z-index: 15;
+}
+
+.s8 {
+	position: absolute;
+  left: 461px;
+  top: 618px;
+  width: 158px;
+  height: 145px;
+	animation: none 0.5s;
+	animation-delay: 1.9s;
+	animation-fill-mode: both;
+	transform-origin: top;
+	z-index: 15;
+}
+
+.s9 {
+	position: absolute;
+  left: 628px;
+  top: 560px;
+  width: 87px;
+  height: 146px;
+	animation: none 0.5s;
+	animation-delay: 2s;
+	animation-fill-mode: both;
+	transform-origin: top left;
+	z-index: 15;
+}
+
+.s10 {
+	position: absolute;
+  left: 702px;
+  top: 471px;
+  width: 204px;
+  height: 144px;
+	animation: none 0.5s;
+	animation-delay: 2.1s;
+	animation-fill-mode: both;
+	transform-origin: top left;
+	z-index: 15;
+}

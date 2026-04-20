@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s1 {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 488px;
+  top: 645px;
+  width: 54px;
+  height: 57px;
+	animation: fadeInDown 0.5s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 15;
+}
+
+.s3 {
+	position: absolute;
+  left: 508px;
+  top: 468px;
+  width: 54px;
+  height: 57px;
+	animation: fadeInUp 0.5s;
+	animation-delay: 1.2s;
+	animation-fill-mode: both;
+	z-index: 15;
+}
+
+@keyframes revealHorizontalRight {
+  0% {
+    clip: rect(0px,0px,100px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,800px,100px,0px);
+	opacity: 1;
+  }
+}
+
+.s4 {
+	position: absolute;
+  left: 72px;
+  top: 456px;
+  width: 509px;
+  height: 282px;
+	animation: zoomIn 0.5s;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	transform-origin: bottom right;
+	z-index: 5;
+}
+
+.s5 {
+	position: absolute;
+  left: 476px;
+  top: 437px;
+  width: 532px;
+  height: 281px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1.7s;
+	animation-fill-mode: both;
+	transform-origin: top left;
+	z-index: 5;
+}
+
+.s6 {
+	position: absolute;
+  left: 46px;
+  top: 597px;
+  width: 358px;
+  height: 60px;
+	animation: revealHorizontalRight 0.7s;
+	animation-delay: 2s;
+	animation-fill-mode: both;
+	clip: rect(0px,0px,100px,0px);
+	z-index: 5;
+}
+
+.s7 {
+	position: absolute;
+  left: 465px;
+  top: 272px;
+  width: 155px;
+  height: 155px;
+	animation: bounceIn 0.3s;
+	animation-delay: 1.8s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s8 {
+	position: absolute;
+  left: 488px;
+  top: 446px;
+  width: 109px;
+  height: 85px;
+	animation: fadeInDownSmall 0.5s;
+	animation-delay: 2.2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s9 {
+	position: absolute;
+  left: 660px;
+  top: 272px;
+  width: 155px;
+  height: 155px;
+	animation: bounceIn 0.3s;
+	animation-delay: 2.6s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s10 {
+	position: absolute;
+  left: 682px;
+  top: 446px;
+  width: 118px;
+  height: 78px;
+	animation: fadeInDownSmall 0.5s;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+	z-index: 5;
+}

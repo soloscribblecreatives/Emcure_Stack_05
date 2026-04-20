@@ -1,0 +1,129 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.background {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.s1 {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 82px;
+  top: 458px;
+  width: 260px;
+  height: 181px;
+	animation: none 0.5s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3 {
+	position: absolute;
+  left: 120px;
+  top: 537px;
+  width: 52px;
+  height: 51px;
+	animation: none 0.5s;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	z-index: 10;
+}
+
+.s4 {
+	position: absolute;
+  left: 242px;
+  top: 537px;
+  width: 52px;
+  height: 51px;
+	animation: none 0.5s;
+	animation-delay: 1.2s;
+	animation-fill-mode: both;
+	z-index: 10;
+}
+
+.s5 {
+	position: absolute;
+  left: 273px;
+  top: 537px;
+  width: 52px;
+  height: 51px;
+	animation: none 0.5s;
+	animation-delay: 1.7s;
+	animation-fill-mode: both;
+	z-index: 15;
+}
+
+@keyframes fadeInLeftSmall {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.s6 {
+	position: absolute;
+  left: 422px;
+  top: 400px;
+  width: 327px;
+  height: 289px;
+	animation: none 0.5s;
+	animation-delay: 2.5s;
+	animation-fill-mode: both;
+	transform-origin: right;
+	z-index: 3;
+}
+
+.s7 {
+	position: absolute;
+  left: 721px;
+  top: 411px;
+  width: 226px;
+  height: 43px;
+	animation: none 0.5s;
+	animation-delay: 2.8s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s8 {
+	position: absolute;
+  left: 767px;
+  top: 522px;
+  width: 231px;
+  height: 47px;
+	animation: none 0.5s;
+	animation-delay: 2.9s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s9 {
+	position: absolute;
+  left: 722px;
+  top: 628px;
+  width: 242px;
+  height: 47px;
+	animation: none 0.5s;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
