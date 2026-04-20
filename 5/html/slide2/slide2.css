@@ -19,7 +19,6 @@
 	animation: none 0.5s;
 	animation-delay: 0.2s;
 	animation-fill-mode: both;
-	clip: rect(0px,0px,100px,0px);
 	z-index: 5;
 }
 
